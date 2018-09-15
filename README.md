@@ -37,9 +37,9 @@ Uygulamadan bağlamak için bu sayfaya bakabilirsin:
 ## Nasil teslim edilir
 Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simulatorda çalıştırılabilir.
 
+## Bitti mi?
 Aşağıdaki kullanıcı hikayeler gerçekleşince bu proje bitirilmiş olarak sayılır.
 
 Bir kullanıcı olarak ...
 1.  Benim şu an ki konumuma bir ad ve renk verip onu kaydedebilirim.
 2.  Her hangi bir cihazdan daha önce kaydedilen konumları bir haritada görebiliyorum.
-
