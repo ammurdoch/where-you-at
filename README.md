@@ -19,7 +19,7 @@ Uygulamada iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme
 Ayrıntıları özelden attım
 
 ## Nasil teslim edilir
-Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simulatorda çalıştırılabilir.
+Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simülatöründa çalıştırılabilir.
 
 ## Bitti mi?
 Aşağıdaki kullanıcı hikayeler gerçekleşince bu proje bitirilmiş olarak sayılır.
