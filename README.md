@@ -21,6 +21,10 @@ Yönetici kullanıcı adı ve parola:
 kanan
 ahalTB4h2aX292H7
 ```
+Veritabanına `mongo` shell ile bağlayabilirsin.
+```
+mongo "mongodb+srv://cluster0-z7rnj.mongodb.net/test" --username kanan
+```
 
 App kullanıcı ve parola:
 ```
