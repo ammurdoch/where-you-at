@@ -1,9 +1,9 @@
 # where-you-at
 Konumunu kaydetmek için basit bir react-native app
 
-Appte iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme olacak.  Konum kaydedilmeden önce o konuma bir renk ve ad verilmeli.  Kullanıcı sadece 9 renkten seçebilmeli.  Ad, bu regexin kapsadığı karakterlerle oluşturulan herhangi bir şey olabilir: `/^[a-zA-Z0-9ğüşöçİĞÜŞÖÇ \-!$%*_+|=:;?,./]+$/` .  Kaydedilince kullanıcının konumunun boylam, enlem, renk, ad ve herhangi gereken başka veriler aşağıda belirlenen MongoDB veritabanına kaydedilecek.
+Uygulamada iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme olacak.  Konum kaydedilmeden önce o konuma bir renk ve ad verilmeli.  Kullanıcı sadece 9 renkten seçebilmeli.  Ad, bu regexin kapsadığı karakterlerle oluşturulan herhangi bir şey olabilir: `/^[a-zA-Z0-9ğüşöçİĞÜŞÖÇ \-!$%*_+|=:;?,./]+$/` .  Kaydedilince kullanıcının konumunun boylam, enlem, renk, ad ve herhangi gereken başka veriler aşağıda belirlenen MongoDB veritabanına kaydedilecek.
 
-İkinci sekmede bir harita olacak.  Bu appı kullanan herkesin kaydettiği konumlar kendi adlarıyla haritada gösterilecek.  Konumların işaretleri (Marker), konumlarla kaydedilen farklı farklı renkler olmalı.
+İkinci sekmede bir harita olacak.  Bu uygulamayı kullanan herkesin kaydettiği konumlar kendi adlarıyla haritada gösterilecek.  Konumların işaretleri (Marker), konumlarla kaydedilen farklı farklı renkler olmalı.
 
 ## Kullanılan Platformlar
 1.  React Native
@@ -31,11 +31,11 @@ App kullanıcı ve parola:
 where-you-at
 gPhT486JxHXovxJU
 ```
-Appten bağlamak için bu sayfaya bakabilirsin:
+Uygulamadan bağlamak için bu sayfaya bakabilirsin:
 https://docs.atlas.mongodb.com/driver-connection/#node-js-driver-example
 
 ## Nasil teslim edilir
-Bu projenin kodu bu git repoya push edilecek.  Appı en az Android veya iOS simulatorda çalıştırılabilir.
+Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simulatorda çalıştırılabilir.
 
 Aşağıdaki kullanıcı hikayeler gerçekleşince bu proje bitirilmiş olarak sayılır.
 
