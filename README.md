@@ -16,9 +16,17 @@ https://github.com/react-community/react-native-maps
 https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
 
 ## MongoDB
-kullanıcı adı ve parola:
+Yönetici kullanıcı adı ve parola:
+```
 kanan
 ahalTB4h2aX292H7
+```
+
+App kullanıcı ve parola:
+```
+where-you-at
+gPhT486JxHXovxJU
+```
 
 ## Nasil teslim edilir
 Bu projenin kodu bu git repoya push edilecek.  Appı en az Android veya iOS simulatorda çalıştırılabilir.
