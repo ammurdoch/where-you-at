@@ -15,24 +15,8 @@ Uygulamada iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme
 - https://github.com/react-community/react-native-maps
 - https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
 
-## MongoDB
-Yönetici kullanıcı adı ve parola:
-```
-kanan
-ahalTB4h2aX292H7
-```
-Veritabanına `mongo` shell ile bağlayabilirsin.
-```
-mongo "mongodb+srv://cluster0-z7rnj.mongodb.net/test" --username kanan
-```
-
-App kullanıcı ve parola:
-```
-where-you-at
-gPhT486JxHXovxJU
-```
-Uygulamadan bağlamak için bu sayfaya bakabilirsin:
-- https://docs.atlas.mongodb.com/driver-connection/#node-js-driver-example
+## Mongo DB
+Ayrıntıları özelden attım
 
 ## Nasil teslim edilir
 Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simulatorda çalıştırılabilir.
