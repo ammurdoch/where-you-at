@@ -31,6 +31,8 @@ App kullanıcı ve parola:
 where-you-at
 gPhT486JxHXovxJU
 ```
+Appten bağlamak için bu sayfaya bakabilirsin:
+https://docs.atlas.mongodb.com/driver-connection/#node-js-driver-example
 
 ## Nasil teslim edilir
 Bu projenin kodu bu git repoya push edilecek.  Appı en az Android veya iOS simulatorda çalıştırılabilir.
