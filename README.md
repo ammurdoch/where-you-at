@@ -7,13 +7,13 @@ Uygulamada iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme
 
 ## Kullanılan Platformlar
 1.  React Native
-https://facebook.github.io/react-native/docs/getting-started.html
+- https://facebook.github.io/react-native/docs/getting-started.html
 2.  MongoDB
-https://www.mongodb.com
-https://www.npmjs.com/package/mongodb
+- https://www.mongodb.com
+- https://www.npmjs.com/package/mongodb
 3.  react-native-maps veya başka bir harita/konum kütüphanesi
-https://github.com/react-community/react-native-maps
-https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
+- https://github.com/react-community/react-native-maps
+- https://medium.com/quick-code/react-native-location-tracking-14ab2c9e2db8
 
 ## MongoDB
 Yönetici kullanıcı adı ve parola:
@@ -32,7 +32,7 @@ where-you-at
 gPhT486JxHXovxJU
 ```
 Uygulamadan bağlamak için bu sayfaya bakabilirsin:
-https://docs.atlas.mongodb.com/driver-connection/#node-js-driver-example
+- https://docs.atlas.mongodb.com/driver-connection/#node-js-driver-example
 
 ## Nasil teslim edilir
 Bu projenin kodu bu git repoya push edilecek.  Uygulamayı en az Android veya iOS simulatorda çalıştırılabilir.
