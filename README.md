@@ -1,7 +1,7 @@
 # where-you-at
 Konumunu kaydetmek için basit bir react-native app
 
-Appte iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme olacak.  Konum kaydedilmeden önce o konuma bir renk ve ad verilmeli.  Kullanıcı sadece 9 renkten seçebilmeli.  Ad, bu regexin kapsadığı karakterlerle oluşturulan herhangi bir şey olabilir: /^[a-zA-Z0-9ğüşöçİĞÜŞÖÇ \-!$%*_+|=:;?,./]+$/ .  Kaydedilince kullanıcının konumunun boylam, enlem, renk, ad ve herhangi gereken başka veriler aşağıda belirlenen MongoDB veritabanına kaydedilecek.
+Appte iki sekme olacak.  Birince sekmede "Konumumu kaydet" diye bir düğme olacak.  Konum kaydedilmeden önce o konuma bir renk ve ad verilmeli.  Kullanıcı sadece 9 renkten seçebilmeli.  Ad, bu regexin kapsadığı karakterlerle oluşturulan herhangi bir şey olabilir: `/^[a-zA-Z0-9ğüşöçİĞÜŞÖÇ \-!$%*_+|=:;?,./]+$/` .  Kaydedilince kullanıcının konumunun boylam, enlem, renk, ad ve herhangi gereken başka veriler aşağıda belirlenen MongoDB veritabanına kaydedilecek.
 
 İkinci sekmede bir harita olacak.  Bu appı kullanan herkesin kaydettiği konumlar kendi adlarıyla haritada gösterilecek.  Konumların işaretleri (Marker), konumlarla kaydedilen farklı farklı renkler olmalı.
 
