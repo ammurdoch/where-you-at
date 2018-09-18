@@ -1,21 +1,32 @@
-var express  = require('express');
-var path = require('path');
-var body_parser = require('body-parser');
-
-var index = require('./routes/index');
+var express = require('express');
 var app = express();
-var port = 3000;
-app.listen(port,function(){
+var morgan = require('morgan');
+var bodyParser = require('body-parser');
+var router = express.Router();
+var mongoose = require('mongoose');
 
-	console.log('Server is Running on port',port);
+var url = "mongodb+srv://where-you-at:gPhT486JxHXovxJU@cluster0-z7rnj.mongodb.net/test";
+
+
+mongoose.connect(url,{ useNewUrlParser: true },function(err){
+	if(err){
+		console.log('Could not connect',err);
+	}   else{
+		console.log('succesfully connected');
+	}
 
 });
+mongoose.Promise = global.Promise;
 
-app.set('views',path.join(__dirname,'views'));
-app.set('view engine','ejs');
-app.engine('html',require('ejs').renderFile);
+var appRouters = require('./routes/api')(router);
+var path = require('path');
 
-app.use(body_parser.json());
-app.use(body_parser.urlencoded({extended:true}));
+app.use(morgan('dev'));
+app.use(bodyParser.json()); 
 
-app.use('/',index);
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use('/api',appRouters);
+
+app.listen(3000,function(){
+	console.log('running the server');
+});	
